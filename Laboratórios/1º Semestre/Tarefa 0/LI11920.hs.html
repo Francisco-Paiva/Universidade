@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://li1.lsd.di.uminho.pt/src/LI11920.hs -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="./LI11920.hs_files/analytics.js.transferir"></script><script async="" src="./LI11920.hs_files/js"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-108230466-1');
+        </script>
+        
+		<link rel="stylesheet" href="./LI11920.hs_files/main.css">
+        <script src="./LI11920.hs_files/jquery-1.9.1.js.transferir"></script>
+        <script src="./LI11920.hs_files/plotly-latest.min.js.transferir"></script><style></style>
+        <script src="./LI11920.hs_files/form.js.transferir"></script>
+        <link rel="stylesheet" type="text/css" href="./LI11920.hs_files/prettify.css">
+        
+        <link rel="stylesheet" href="./LI11920.hs_files/codemirror.css">
+        <link rel="stylesheet" href="./LI11920.hs_files/monokai.css">
+        <script src="./LI11920.hs_files/codemirror.js.transferir"></script>
+        <script src="./LI11920.hs_files/matchbrackets.js.transferir"></script>
+        <script src="./LI11920.hs_files/haskell.js.transferir"></script>
+        
+        
+        </head><body><homehead></homehead>
+    
+        
+	
+	
+
+        <!-- Header -->
+        	<header id="header">
+        		<a class="logo" href="https://li1.lsd.di.uminho.pt/">Página Principal</a>
+                <a class="logo" href="https://li1.lsd.di.uminho.pt/group">Grupo</a>
+                <a class="logo" href="https://li1.lsd.di.uminho.pt/rankings">Classificações</a>
+                <a class="logo" href="https://haslab.github.io/Teaching/LI1/">Anos Anteriores</a>
+            
+        		<nav>
+        			<a href="https://li1.lsd.di.uminho.pt/src/LI11920.hs#menu">Menu</a>
+        		</nav>
+        	</header>
+    
+        <!-- Nav -->
+            
+
+		
+         
+ 		<!-- Main -->
+ 			<section id="main" class="wrapper">
+ 				<div class="inner">
+ 					<div class="content">
+ 						
+                        
+         
+        <form style="height:2em" method="get" action="https://li1.lsd.di.uminho.pt/raw/src/LI11920.hs">
+           <label style="float:left"><strong>src/LI11920.hs</strong></label>
+           <button style="float:right" class="button primary" type="submit">Descarregar</button>
+        </form>
+        
+        <pre style="clear: both;" class="prettyprint lang-hs$ prettyprinted"><span class="pun">--</span><span class="pln"> </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Este</span><span class="pln"> m</span><span class="pun">ó</span><span class="pln">dulo define os tipos de dados comuns a todos os alunos</span><span class="pun">,</span><span class="pln"> tal como descrito e utilizado </span><span class="kwd">no</span><span class="pln"> enunciado </span><span class="kwd">do</span><span class="pln"> trabalho pr</span><span class="pun">á</span><span class="pln">tico</span><span class="pun">.</span><span class="pln"> 
+</span><span class="kwd">module</span><span class="pln"> LI11920 </span><span class="kwd">where</span><span class="pln">
+
+</span><span class="pun">--</span><span class="pln"> </span><span class="pun">*</span><span class="pln"> </span><span class="typ">Tipos</span><span class="pln"> de dados auxiliares</span><span class="pun">.</span><span class="pln">
+
+type </span><span class="typ">Mapa</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="pun">[</span><span class="typ">Pista</span><span class="pun">]</span><span class="pln">
+
+type </span><span class="typ">Pista</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="pun">[</span><span class="typ">Peca</span><span class="pun">]</span><span class="pln">
+
+data </span><span class="typ">Peca</span><span class="pln">
+    </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Recta</span><span class="pln"> </span><span class="typ">Piso</span><span class="pln"> </span><span class="typ">Int</span><span class="pln">
+    </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Rampa</span><span class="pln"> </span><span class="typ">Piso</span><span class="pln"> </span><span class="typ">Int</span><span class="pln"> </span><span class="typ">Int</span><span class="pln">
+  deriving </span><span class="pun">(</span><span class="typ">Read</span><span class="pun">,</span><span class="typ">Show</span><span class="pun">,</span><span class="typ">Eq</span><span class="pun">)</span><span class="pln">
+
+data </span><span class="typ">Piso</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Terra</span><span class="pln"> </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Relva</span><span class="pln"> </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Lama</span><span class="pln"> </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Boost</span><span class="pln"> </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Cola</span><span class="pln">
+  deriving </span><span class="pun">(</span><span class="typ">Read</span><span class="pun">,</span><span class="typ">Show</span><span class="pun">,</span><span class="typ">Eq</span><span class="pun">)</span><span class="pln">
+
+data </span><span class="typ">Jogador</span><span class="pln">
+    </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Jogador</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> pistaJogador </span><span class="pun">::</span><span class="pln"> </span><span class="typ">Int</span><span class="pun">,</span><span class="pln"> distanciaJogador </span><span class="pun">::</span><span class="pln"> </span><span class="typ">Float</span><span class="pun">,</span><span class="pln"> velocidadeJogador </span><span class="pun">::</span><span class="pln"> </span><span class="typ">Float</span><span class="pun">,</span><span class="pln"> colaJogador </span><span class="pun">::</span><span class="pln"> </span><span class="typ">Int</span><span class="pun">,</span><span class="pln"> estadoJogador </span><span class="pun">::</span><span class="pln"> </span><span class="typ">EstadoJogador</span><span class="pln"> </span><span class="pun">}</span><span class="pln">
+  deriving </span><span class="pun">(</span><span class="typ">Read</span><span class="pun">,</span><span class="typ">Show</span><span class="pun">,</span><span class="typ">Eq</span><span class="pun">)</span><span class="pln">
+
+data </span><span class="typ">EstadoJogador</span><span class="pln">
+    </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Chao</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> aceleraJogador </span><span class="pun">::</span><span class="pln"> </span><span class="typ">Bool</span><span class="pln"> </span><span class="pun">}</span><span class="pln">
+    </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Morto</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> timeoutJogador </span><span class="pun">::</span><span class="pln"> </span><span class="typ">Float</span><span class="pln"> </span><span class="pun">}</span><span class="pln">
+    </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Ar</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> alturaJogador </span><span class="pun">::</span><span class="pln"> </span><span class="typ">Float</span><span class="pun">,</span><span class="pln"> inclinacaoJogador </span><span class="pun">::</span><span class="pln"> </span><span class="typ">Float</span><span class="pun">,</span><span class="pln"> gravidadeJogador </span><span class="pun">::</span><span class="pln"> </span><span class="typ">Float</span><span class="pln"> </span><span class="pun">}</span><span class="pln">
+  deriving </span><span class="pun">(</span><span class="typ">Read</span><span class="pun">,</span><span class="typ">Show</span><span class="pun">,</span><span class="typ">Eq</span><span class="pun">)</span><span class="pln">
+
+</span><span class="pun">--</span><span class="pln"> </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Estado</span><span class="pln"> </span><span class="kwd">do</span><span class="pln"> jogo</span><span class="pun">.</span><span class="pln">
+data </span><span class="typ">Estado</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Estado</span><span class="pln">
+    </span><span class="pun">{</span><span class="pln"> mapaEstado      </span><span class="pun">::</span><span class="pln"> </span><span class="typ">Mapa</span><span class="pln">
+    </span><span class="pun">,</span><span class="pln"> jogadoresEstado </span><span class="pun">::</span><span class="pln"> </span><span class="pun">[</span><span class="typ">Jogador</span><span class="pun">]</span><span class="pln"> </span><span class="pun">--</span><span class="pln"> </span><span class="pun">^</span><span class="pln"> lista de jogadores com identificador igual ao </span><span class="pun">í</span><span class="pln">ndice na lista
+    </span><span class="pun">}</span><span class="pln">
+  deriving </span><span class="pun">(</span><span class="typ">Read</span><span class="pun">,</span><span class="typ">Show</span><span class="pun">,</span><span class="typ">Eq</span><span class="pun">)</span><span class="pln">
+
+</span><span class="pun">--</span><span class="pln"> </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Uma</span><span class="pln"> dire</span><span class="pun">çã</span><span class="pln">o</span><span class="pun">.</span><span class="pln">
+data </span><span class="typ">Direcao</span><span class="pln">
+    </span><span class="pun">=</span><span class="pln"> C </span><span class="pun">--</span><span class="pln"> </span><span class="pun">^</span><span class="pln"> </span><span class="typ">Cima</span><span class="pln">
+    </span><span class="pun">|</span><span class="pln"> D </span><span class="pun">--</span><span class="pln"> </span><span class="pun">^</span><span class="pln"> </span><span class="typ">Direita</span><span class="pln">
+    </span><span class="pun">|</span><span class="pln"> B </span><span class="pun">--</span><span class="pln"> </span><span class="pun">^</span><span class="pln"> </span><span class="typ">Baixo</span><span class="pln">
+    </span><span class="pun">|</span><span class="pln"> E </span><span class="pun">--</span><span class="pln"> </span><span class="pun">^</span><span class="pln"> </span><span class="typ">Esquerda</span><span class="pln">
+  deriving </span><span class="pun">(</span><span class="typ">Read</span><span class="pun">,</span><span class="typ">Show</span><span class="pun">,</span><span class="typ">Eq</span><span class="pun">,</span><span class="typ">Enum</span><span class="pun">,</span><span class="typ">Bounded</span><span class="pun">)</span><span class="pln">
+
+data </span><span class="typ">Jogada</span><span class="pln">
+    </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Movimenta</span><span class="pln"> </span><span class="typ">Direcao</span><span class="pln">
+    </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Acelera</span><span class="pln">
+    </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Desacelera</span><span class="pln">
+    </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Dispara</span><span class="pln"> </span><span class="pun">--</span><span class="pln"> </span><span class="pun">^</span><span class="pln"> cola
+  deriving </span><span class="pun">(</span><span class="typ">Read</span><span class="pun">,</span><span class="typ">Show</span><span class="pun">,</span><span class="typ">Eq</span><span class="pun">)</span><span class="pln">
+    
+type </span><span class="typ">Instrucoes</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="pun">[</span><span class="typ">Instrucao</span><span class="pun">]</span><span class="pln">
+
+data </span><span class="typ">Instrucao</span><span class="pln">
+    </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Anda</span><span class="pln"> </span><span class="pun">[</span><span class="typ">Int</span><span class="pun">]</span><span class="pln"> </span><span class="typ">Piso</span><span class="pln">
+    </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Sobe</span><span class="pln"> </span><span class="pun">[</span><span class="typ">Int</span><span class="pun">]</span><span class="pln"> </span><span class="typ">Piso</span><span class="pln"> </span><span class="typ">Int</span><span class="pln">
+    </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Desce</span><span class="pln"> </span><span class="pun">[</span><span class="typ">Int</span><span class="pun">]</span><span class="pln"> </span><span class="typ">Piso</span><span class="pln"> </span><span class="typ">Int</span><span class="pln">
+    </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Teleporta</span><span class="pln"> </span><span class="pun">[</span><span class="typ">Int</span><span class="pun">]</span><span class="pln"> </span><span class="typ">Int</span><span class="pln">
+    </span><span class="pun">|</span><span class="pln"> </span><span class="typ">Repete</span><span class="pln"> </span><span class="typ">Int</span><span class="pln"> </span><span class="typ">Instrucoes</span><span class="pln">
+  deriving </span><span class="pun">(</span><span class="typ">Read</span><span class="pun">,</span><span class="typ">Show</span><span class="pun">,</span><span class="typ">Eq</span><span class="pun">)</span><span class="pln">
+
+tamanhoInstrucoes </span><span class="pun">::</span><span class="pln"> </span><span class="typ">Instrucoes</span><span class="pln"> </span><span class="pun">-&gt;</span><span class="pln"> </span><span class="typ">Int</span><span class="pln">
+tamanhoInstrucoes </span><span class="kwd">is</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> sum </span><span class="pun">(</span><span class="pln">map tamanhoInstrucao </span><span class="kwd">is</span><span class="pun">)</span><span class="pln">
+
+tamanhoInstrucao </span><span class="pun">::</span><span class="pln"> </span><span class="typ">Instrucao</span><span class="pln"> </span><span class="pun">-&gt;</span><span class="pln"> </span><span class="typ">Int</span><span class="pln">
+tamanhoInstrucao </span><span class="pun">(</span><span class="typ">Repete</span><span class="pln"> _ </span><span class="kwd">is</span><span class="pun">)</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> succ $ tamanhoInstrucoes </span><span class="kwd">is</span><span class="pln">
+tamanhoInstrucao _ </span><span class="pun">=</span><span class="pln"> </span><span class="lit">1</span></pre>
+        
+    
+                        
+ 					</div>
+ 				</div>
+ 			</section>
+        
+    
+
+	
+    
+	<!-- Scripts -->
+	<script src="./LI11920.hs_files/browser.min.js.transferir"></script>
+	<script src="./LI11920.hs_files/breakpoints.min.js.transferir"></script>
+	<script src="./LI11920.hs_files/util.js.transferir"></script>
+	<script src="./LI11920.hs_files/main.js.transferir"></script><nav id="menu">
+            		
+
+<form method="POST" action="https://li1.lsd.di.uminho.pt/login" id="loginForm">
+    <label for="login">Utilizador</label>
+    <input type="text" name="login" id="login" value="">
+    <label for="login">Password</label>
+    <input type="password" name="password" id="password" value="">
+    <input class="main" type="checkbox" name="remember" id="remember" value="">
+    <label for="remember">Relembrar-me?</label>
+    <input class="button primary" type="submit" value="Login">
+</form>
+
+
+
+<p><loginmessage></loginmessage></p>
+
+
+
+<script>
+    /* attach a submit handler to the form */
+    $("#loginForm").submit(function(event) {
+
+        /* stop form from submitting normally */
+        event.preventDefault();
+        /*event.stopPropagation();*/
+
+        /* get some values from elements on the page: */
+        var $form = $(this),
+            login = $form.find('input[name="login"]').val(),
+            password = $form.find('input[name="password"]').val(),
+            remember = $form.find('input[name="remember"]').val(),
+            url = $form.attr('action');
+
+        /* Send the data using post */
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                /*console.log(this.responseText);*/
+                eval(this.responseText);
+            }
+        };
+        /*console.log("sending login " + login + " " + password + " " + remember);*/
+        xhttp.open("POST", "/login", true);
+        xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhttp.setRequestHeader("accept","application/javascript");
+        xhttp.send("login="+login+"&password="+password+"&remember="+remember);
+           
+    });
+</script>
+    
+
+
+            
+
+
+
+            <a href="https://li1.lsd.di.uminho.pt/src/LI11920.hs#menu" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></a></nav>
+    
+    
+        <homeefooter></homeefooter>
+    
+    
+
+
+</body></html>
