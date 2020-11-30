@@ -1,0 +1,222 @@
+
+----------------------------------------------------------------------
+17114:CCREAT
+A runtime error was detected at time 4.3669463 at the following block:
+
+ *   44 203$            CREATE,1,MinutesToBaseTime(0.0),Transmiss0es:
+                            MinutesToBaseTime(EXPO(4.5)):
+                            NEXT(204$);
+
+Maximum of 150 entities exceeded.
+Possible causes:
+- A logic problem in your model is creating too many entities or not
+  disposing them. The run controller may be helpful in finding the problem.
+- You are in demo mode and have exceeded the entity limit. The commercial
+  version is required to run large models.
+- You have set an entity limit on the DISCRETE element that is too small.
+  Remove the limit or set it to a larger number.
+- You have exceeded the standard array s 
+pace for models. Use the Array Sizes
+  page in the Run/Setup dialog to increase the RSET space allocated and
+  recheck your model.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+4.3669463 Hours>
+                                      ARENA Simulation Results
+                                                 DPS
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :10/ 9/2019
+Analyst: DPS                                                         Model revision date:10/ 9/2019
+
+Replication ended at time      : 4.3669463 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Quadr0s.VATime                                  --         --         --         --          0
+Quadr0s.NVATime                                 --         --         --         --          0
+Quadr0s.WaitTime                                --         --         --         --          0
+Quadr0s.TranTime                                --         --         --         --          0
+Quadr0s.OtherTime                               --         --         --         --          0
+Quadr0s.TotalTime                               --         --         --         --          0
+Dois Travoes.VATime                             --         --         --         --          0
+Dois Travoes.NVATime                            --         --         --         --          0
+Dois Travoes.WaitTime                           --         --         --         --          0
+Dois Travoes.TranTime                           --         --         --         --          0
+Dois Travoes.OtherTime                          --         --         --         --          0
+Dois Travoes.TotalTime                          --         --         --         --          0
+Duas rodas.VATime                               --         --         --         --          0
+Duas rodas.NVATime                              --         --         --         --          0
+Duas rodas.WaitTime                             --         --         --         --          0
+Duas rodas.TranTime                             --         --         --         --          0
+Duas rodas.OtherTime                            --         --         --         --          0
+Duas rodas.TotalTime                            --         --         --         --          0
+Trav0es.VATime                                  --         --         --         --          0
+Trav0es.NVATime                                 --         --         --         --          0
+Trav0es.WaitTime                                --         --         --         --          0
+Trav0es.TranTime                                --         --         --         --          0
+Trav0es.OtherTime                               --         --         --         --          0
+Trav0es.TotalTime                               --         --         --         --          0
+@ssentos.VATime                                 --         --         --         --          0
+@ssentos.NVATime                                --         --         --         --          0
+@ssentos.WaitTime                               --         --         --         --          0
+@ssentos.TranTime                               --         --         --         --          0
+@ssentos.OtherTime                              --         --         --         --          0
+@ssentos.TotalTime                              --         --         --         --          0
+Forquet@s.VATime                                --         --         --         --          0
+Forquet@s.NVATime                               --         --         --         --          0
+Forquet@s.WaitTime                              --         --         --         --          0
+Forquet@s.TranTime                              --         --         --         --          0
+Forquet@s.OtherTime                             --         --         --         --          0
+Forquet@s.TotalTime                             --         --         --         --          0
+Prod 2.VATime                                   --         --         --         --          0
+Prod 2.NVATime                                  --         --         --         --          0
+Prod 2.WaitTime                                 --         --         --         --          0
+Prod 2.TranTime                                 --         --         --         --          0
+Prod 2.OtherTime                                --         --         --         --          0
+Prod 2.TotalTime                                --         --         --         --          0
+Prod 3.VATime                               .14064     (Insuf)    .11442     .16896         41    
+Prod 3.NVATime                              .00000     (Insuf)    .00000     .00000         41    
+Prod 3.WaitTime                             2.4469     (Insuf)    .28435     4.6285         41    
+Prod 3.TranTime                             .00000     (Insuf)    .00000     .00000         41    
+Prod 3.OtherTime                            .00000     (Insuf)    .00000     .00000         41    
+Prod 3.TotalTime                            .88663     (Insuf)    .15378     1.2628         41    
+Prod 1.VATime                                   --         --         --         --          0
+Prod 1.NVATime                                  --         --         --         --          0
+Prod 1.WaitTime                                 --         --         --         --          0
+Prod 1.TranTime                                 --         --         --         --          0
+Prod 1.OtherTime                                --         --         --         --          0
+Prod 1.TotalTime                                --         --         --         --          0
+Rod@s.VATime                                    --         --         --         --          0
+Rod@s.NVATime                                   --         --         --         --          0
+Rod@s.WaitTime                                  --         --         --         --          0
+Rod@s.TranTime                                  --         --         --         --          0
+Rod@s.OtherTime                                 --         --         --         --          0
+Rod@s.TotalTime                                 --         --         --         --          0
+Direç0@.VATime                                  --         --         --         --          0
+Direç0@.NVATime                                 --         --         --         --          0
+Direç0@.WaitTime                                --         --         --         --          0
+Direç0@.TranTime                                --         --         --         --          0
+Direç0@.OtherTime                               --         --         --         --          0
+Direç0@.TotalTime                               --         --         --         --          0
+camPA1NHA.VATime                                --         --         --         --          0
+camPA1NHA.NVATime                               --         --         --         --          0
+camPA1NHA.WaitTime                              --         --         --         --          0
+camPA1NHA.TranTime                              --         --         --         --          0
+camPA1NHA.OtherTime                             --         --         --         --          0
+camPA1NHA.TotalTime                             --         --         --         --          0
+Transmiss0es.VATime                             --         --         --         --          0
+Transmiss0es.NVATime                            --         --         --         --          0
+Transmiss0es.WaitTime                           --         --         --         --          0
+Transmiss0es.TranTime                           --         --         --         --          0
+Transmiss0es.OtherTime                          --         --         --         --          0
+Transmiss0es.TotalTime                          --         --         --         --          0
+Match 3.Queue3.WaitingTime                  .27413     (Insuf)    .00000     .87068         42    
+Match 3.Queue1.WaitingTime                  .10658     (Insuf)    .00000     .49116         42    
+Match 3.Queue2.WaitingTime                  .31348     (Insuf)    .00000     .99531         42    
+Match 2.Queue3.WaitingTime                  .37677     (Insuf)    .01731     .81228         46    
+Match 2.Queue1.WaitingTime                  .00382     (Insuf)    .00000     .06471         46    
+Match 2.Queue2.WaitingTime                  .20170     (Insuf)    .00000     .53757         46    
+rodinhas.Queue.WaitingTime                  .02088     (Insuf)    .00000     .17899         96    
+Match 1.Queue3.WaitingTime                  .11266     (Insuf)    .00000     .54255         48    
+Match 1.Queue4.WaitingTime                  .37636     (Insuf)    .00000     .77786         48    
+Match 1.Queue1.WaitingTime                  .55752     (Insuf)    .00000     1.0991         48    
+Match 1.Queue2.WaitingTime                  .09179     (Insuf)    .00000     .44368         48    
+montagen 3.Queue.WaitingTime                .00676     (Insuf)    .00000     .05378         42    
+montagem 2.Queue.WaitingTime                .00979     (Insuf)    .00000     .07089         46    
+Montagerm 1.Queue.WaitingTime               .01547     (Insuf)    .00000     .05737         47    
+travoesssss.Queue.WaitingTime               .02067     (Insuf)    .00000     .24739        114    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Quadr0s.WIP                                 9.3380     (Insuf)    .00000     16.000     10.000    
+Dois Travoes.WIP                            5.4208     (Insuf)    .00000     16.000     16.000    
+Duas rodas.WIP                              4.5783     (Insuf)    .00000     8.0000     7.0000    
+Trav0es.WIP                                 11.398     (Insuf)    .00000     33.000     33.000    
+@ssentos.WIP                                7.5185     (Insuf)    .00000     12.000     12.000    
+Forquet@s.WIP                               4.4549     (Insuf)    .00000     12.000     12.000    
+Prod 2.WIP                                  2.4029     (Insuf)    .00000     7.0000     5.0000    
+Prod 3.WIP                                  .52198     (Insuf)    .00000     3.0000     1.0000    
+Prod 1.WIP                                  3.0550     (Insuf)    .00000     7.0000     7.0000    
+Rod@s.WIP                                   9.6185     (Insuf)    .00000     17.000     15.000    
+Direç0@.WIP                                 4.0638     (Insuf)    .00000     7.0000     7.0000    
+camPA1NHA.WIP                               3.1584     (Insuf)    .00000     8.0000     1.0000    
+Transmiss0es.WIP                            7.1553     (Insuf)    .00000     15.000     15.000    
+Operador 3.NumberBusy                       .45701     (Insuf)    .00000     1.0000     1.0000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .45701     (Insuf)    .00000     1.0000     1.0000    
+operador 2.NumberBusy                       .52668     (Insuf)    .00000     1.0000     .00000    
+operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+operador 2.Utilization                      .52668     (Insuf)    .00000     1.0000     .00000    
+Operador 1.NumberBusy                       .44404     (Insuf)    .00000     1.0000     1.0000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .44404     (Insuf)    .00000     1.0000     1.0000    
+Match 3.Queue3.NumberInQueue                2.6364     (Insuf)    .00000     8.0000     .00000    
+Match 3.Queue1.NumberInQueue                1.2512     (Insuf)    .00000     5.0000     4.0000    
+Match 3.Queue2.NumberInQueue                4.8988     (Insuf)    .00000     16.000     15.000    
+Match 2.Queue3.NumberInQueue                4.7523     (Insuf)    .00000     11.000     10.000    
+Match 2.Queue1.NumberInQueue                .04023     (Insuf)    .00000     1.0000     .00000    
+Match 2.Queue2.NumberInQueue                2.1753     (Insuf)    .00000     7.0000     2.0000    
+rodinhas.Queue.NumberInQueue                .46192     (Insuf)    .00000     2.0000     1.0000    
+Match 1.Queue3.NumberInQueue                1.3999     (Insuf)    .00000     7.0000     5.0000    
+Match 1.Queue4.NumberInQueue                4.4635     (Insuf)    .00000     10.000     5.0000    
+Match 1.Queue1.NumberInQueue                6.2830     (Insuf)    .00000     15.000     3.0000    
+Match 1.Queue2.NumberInQueue                1.0088     (Insuf)    .00000     6.0000     .00000    
+montagen 3.Queue.NumberInQueue              .06497     (Insuf)    .00000     2.0000     .00000    
+montagem 2.Queue.NumberInQueue              .10311     (Insuf)    .00000     2.0000     .00000    
+Montagerm 1.Queue.NumberInQueue             .16775     (Insuf)    .00000     2.0000     1.0000    
+travoesssss.Queue.NumberInQueue             .55645     (Insuf)    .00000     2.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Quadr0s.NumberIn                            51.000    
+Quadr0s.NumberOut                           41.000    
+Dois Travoes.NumberIn                       57.000    
+Dois Travoes.NumberOut                      41.000    
+Duas rodas.NumberIn                         48.000    
+Duas rodas.NumberOut                        41.000    
+Trav0es.NumberIn                            115.00    
+Trav0es.NumberOut                           82.000    
+@ssentos.NumberIn                           53.000    
+@ssentos.NumberOut                          41.000    
+Forquet@s.NumberIn                          53.000    
+Forquet@s.NumberOut                         41.000    
+Prod 2.NumberIn                             46.000    
+Prod 2.NumberOut                            41.000    
+Prod 3.NumberIn                             42.000    
+Prod 3.NumberOut                            41.000    
+Prod 1.NumberIn                             48.000    
+Prod 1.NumberOut                            41.000    
+Rod@s.NumberIn                              97.000    
+Rod@s.NumberOut                             82.000    
+Direç0@.NumberIn                            48.000    
+Direç0@.NumberOut                           41.000    
+camPA1NHA.NumberIn                          42.000    
+camPA1NHA.NumberOut                         41.000    
+Transmiss0es.NumberIn                       56.000    
+Transmiss0es.NumberOut                      41.000    
+Operador 3.NumberSeized                     42.000    
+Operador 3.ScheduledUtilization             .45701    
+operador 2.NumberSeized                     46.000    
+operador 2.ScheduledUtilization             .52668    
+Operador 1.NumberSeized                     47.000    
+Operador 1.ScheduledUtilization             .44404    
+System.NumberOut                            41.000    
+
+
+Simulation run time: 1.47 minutes.
+Simulation run completed with 1 error(s) and 0 warning(s).

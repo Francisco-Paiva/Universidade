@@ -1,0 +1,52 @@
+SIMAN Run Controller.
+
+3.7617183 Hours>
+                                      ARENA Simulation Results
+                                                 DPS
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 9/30/2019
+Analyst: DPS                                                         Model revision date: 9/30/2019
+
+Replication ended at time      : 3.7617183 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .53514     (Insuf)    .02515     1.3272         29    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         29    
+Entity 1.WaitTime                           .00197     (Insuf)    .00000     .05115         29    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         29    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         29    
+Entity 1.TotalTime                          .53712     (Insuf)    .02515     1.3272         29    
+cu.Queue.WaitingTime                        .00357     (Insuf)    .00000     .05115         16    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.1726     (Insuf)    .00000     8.0000     7.0000    
+ATM.NumberBusy                              .18845     (Insuf)    .00000     1.0000     1.0000    
+ATM.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATM.Utilization                             .18845     (Insuf)    .00000     1.0000     1.0000    
+cu.Queue.NumberInQueue                      .02164     (Insuf)    .00000     1.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           36.000    
+Entity 1.NumberOut                          29.000    
+ATM.NumberSeized                            16.000    
+ATM.ScheduledUtilization                    .18845    
+System.NumberOut                            29.000    
+
+
+Simulation run time: 0.42 minutes.
+Simulation run complete.

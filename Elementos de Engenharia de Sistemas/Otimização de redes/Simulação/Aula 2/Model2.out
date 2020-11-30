@@ -1,0 +1,525 @@
+
+                                      ARENA Simulation Results
+                                                 DPS
+
+                                  Summary for Replication 1 of 50
+
+Project: Unnamed Project                                             Run execution date :10/ 2/2019
+Analyst: DPS                                                         Model revision date:10/ 2/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+pessoa pe.VATime                            10.135     (Insuf)    3.8154     30.760         75    
+pessoa pe.NVATime                           .00000     (Insuf)    .00000     .00000         75    
+pessoa pe.WaitTime                          7.6592     (Insuf)    .00000     172.35         75    
+pessoa pe.TranTime                          .00000     (Insuf)    .00000     .00000         75    
+pessoa pe.OtherTime                         .00000     (Insuf)    .00000     .00000         75    
+pessoa pe.TotalTime                         17.794     (Insuf)    3.8154     203.11         75    
+Entity 1.VATime                             54.079     (Insuf)    39.186     69.885         21    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         21    
+Entity 1.WaitTime                           103.88     (Insuf)    9.1772     319.04         21    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         21    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         21    
+Entity 1.TotalTime                          90.388     (Insuf)    16.993     245.57         21    
+Assistente Emprearial.Queue.WaitingTime     101.82     (Insuf)    .00000     220.47         24    
+Assu«istente doméstico.Queue.WaitingTime    .02331     (Insuf)    .00000     1.3261        140    
+Taxi ttt.Queue.WaitingTime                  8.6156     (Insuf)    .00000     29.026         84    
+Estacionar o carro.Queue.WaitingTime        .66248     (Insuf)    .00000     24.794         95    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+pessoa pe.WIP                               4.4399     (Insuf)    .00000     9.0000     5.0000    
+Entity 1.WIP                                9.9802     (Insuf)    .00000     19.000     14.000    
+Lugar.NumberBusy                            12.944     (Insuf)    .00000     20.000     20.000    
+Lugar.NumberScheduled                       20.000     (Insuf)    20.000     20.000     20.000    
+Lugar.Utilization                           .64724     (Insuf)    .00000     1.0000     1.0000    
+1 Assistente domestico.NumberBusy           1.7393     (Insuf)    .00000     5.0000     1.0000    
+1 Assistente domestico.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+1 Assistente domestico.Utilization          .34786     (Insuf)    .00000     1.0000     .20000    
+Assistente empresarial.NumberBusy           2.9510     (Insuf)    .00000     3.0000     3.0000    
+Assistente empresarial.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Assistente empresarial.Utilization          .59021     (Insuf)    .00000     .60000     .60000    
+Assistente Emprearial.Queue.NumberInQueue   8.4340     (Insuf)    .00000     13.000     11.000    
+Assu«istente doméstico.Queue.NumberInQueue  .00680     (Insuf)    .00000     2.0000     .00000    
+Taxi ttt.Queue.NumberInQueue                1.5503     (Insuf)    .00000     4.0000     2.0000    
+Estacionar o carro.Queue.NumberInQueue      .23141     (Insuf)    .00000     5.0000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+pessoa pe.NumberIn                          80.000    
+pessoa pe.NumberOut                         75.000    
+Entity 1.NumberIn                           119.00    
+Entity 1.NumberOut                          105.00    
+Lugar.NumberSeized                          95.000    
+Lugar.ScheduledUtilization                  .64724    
+1 Assistente domestico.NumberSeized         140.00    
+1 Assistente domestico.ScheduledUtilizatio  .34786    
+Assistente empresarial.NumberSeized         72.000    
+Assistente empresarial.ScheduledUtilizatio  .59021    
+System.NumberOut                            96.000    
+
+Beginning replication 2 of 50
+
+                                      ARENA Simulation Results
+                                                 DPS
+
+                                  Summary for Replication 2 of 50
+
+Project: Unnamed Project                                             Run execution date :10/ 2/2019
+Analyst: DPS                                                         Model revision date:10/ 2/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+pessoa pe.VATime                            10.156     (Insuf)    4.3414     29.074         65    
+pessoa pe.NVATime                           .00000     (Insuf)    .00000     .00000         65    
+pessoa pe.WaitTime                          4.6785     (Insuf)    .00000     88.598         65    
+pessoa pe.TranTime                          .00000     (Insuf)    .00000     .00000         65    
+pessoa pe.OtherTime                         .00000     (Insuf)    .00000     .00000         65    
+pessoa pe.TotalTime                         14.835     (Insuf)    4.3414     117.67         65    
+Entity 1.VATime                             56.876     (Insuf)    42.794     68.730         20    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         20    
+Entity 1.WaitTime                           99.157     (Insuf)    11.309     302.35         20    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         20    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         20    
+Entity 1.TotalTime                          76.762     (Insuf)    18.361     130.50         20    
+Assistente Emprearial.Queue.WaitingTime     49.854     (Insuf)    .00000     91.606         25    
+Assu«istente doméstico.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000        124    
+Taxi ttt.Queue.WaitingTime                  8.8006     (Insuf)    .00000     38.916         80    
+Estacionar o carro.Queue.WaitingTime        6.5328     (Insuf)    .00000     58.121         85    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+pessoa pe.WIP                               2.0543     (Insuf)    .00000     6.0000     3.0000    
+Entity 1.WIP                                8.2449     (Insuf)    .00000     26.000     21.000    
+Lugar.NumberBusy                            16.910     (Insuf)    .00000     20.000     20.000    
+Lugar.NumberScheduled                       20.000     (Insuf)    20.000     20.000     20.000    
+Lugar.Utilization                           .84555     (Insuf)    .00000     1.0000     1.0000    
+1 Assistente domestico.NumberBusy           1.5086     (Insuf)    .00000     5.0000     2.0000    
+1 Assistente domestico.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+1 Assistente domestico.Utilization          .30174     (Insuf)    .00000     1.0000     .40000    
+Assistente empresarial.NumberBusy           2.9712     (Insuf)    .00000     3.0000     3.0000    
+Assistente empresarial.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Assistente empresarial.Utilization          .59426     (Insuf)    .00000     .60000     .60000    
+Assistente Emprearial.Queue.NumberInQueue   2.8476     (Insuf)    .00000     6.0000     4.0000    
+Assu«istente doméstico.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Taxi ttt.Queue.NumberInQueue                1.4667     (Insuf)    .00000     4.0000     .00000    
+Estacionar o carro.Queue.NumberInQueue      2.1684     (Insuf)    .00000     16.000     16.000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+pessoa pe.NumberIn                          68.000    
+pessoa pe.NumberOut                         65.000    
+Entity 1.NumberIn                           121.00    
+Entity 1.NumberOut                          100.00    
+Lugar.NumberSeized                          85.000    
+Lugar.ScheduledUtilization                  .84555    
+1 Assistente domestico.NumberSeized         124.00    
+1 Assistente domestico.ScheduledUtilizatio  .30174    
+Assistente empresarial.NumberSeized         75.000    
+Assistente empresarial.ScheduledUtilizatio  .59426    
+System.NumberOut                            85.000    
+
+Beginning replication 3 of 50
+
+                                      ARENA Simulation Results
+                                                 DPS
+
+                                  Summary for Replication 3 of 50
+
+Project: Unnamed Project                                             Run execution date :10/ 2/2019
+Analyst: DPS                                                         Model revision date:10/ 2/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+pessoa pe.VATime                            9.7465     (Insuf)    4.6162     27.882         67    
+pessoa pe.NVATime                           .00000     (Insuf)    .00000     .00000         67    
+pessoa pe.WaitTime                          7.5562     (Insuf)    .00000     149.69         67    
+pessoa pe.TranTime                          .00000     (Insuf)    .00000     .00000         67    
+pessoa pe.OtherTime                         .00000     (Insuf)    .00000     .00000         67    
+pessoa pe.TotalTime                         17.302     (Insuf)    4.6162     172.00         67    
+Entity 1.VATime                             56.347     (Insuf)    37.889     78.985         19    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         19    
+Entity 1.WaitTime                           116.39     (Insuf)    18.908     279.79         19    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         19    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         19    
+Entity 1.TotalTime                          84.615     (Insuf)    21.676     155.75         19    
+Assistente Emprearial.Queue.WaitingTime     81.206     (Insuf)    .00000     152.18         24    
+Assu«istente doméstico.Queue.WaitingTime    .03589     (Insuf)    .00000     2.4434        121    
+Taxi ttt.Queue.WaitingTime                  8.5081     (Insuf)    .00000     32.973         76    
+Estacionar o carro.Queue.WaitingTime        6.9105     (Insuf)    .00000     43.710         87    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+pessoa pe.WIP                               2.8909     (Insuf)    .00000     8.0000     3.0000    
+Entity 1.WIP                                9.5300     (Insuf)    .00000     20.000     16.000    
+Lugar.NumberBusy                            15.683     (Insuf)    .00000     20.000     20.000    
+Lugar.NumberScheduled                       20.000     (Insuf)    20.000     20.000     20.000    
+Lugar.Utilization                           .78418     (Insuf)    .00000     1.0000     1.0000    
+1 Assistente domestico.NumberBusy           1.4883     (Insuf)    .00000     5.0000     .00000    
+1 Assistente domestico.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+1 Assistente domestico.Utilization          .29767     (Insuf)    .00000     1.0000     .00000    
+Assistente empresarial.NumberBusy           2.9803     (Insuf)    .00000     3.0000     3.0000    
+Assistente empresarial.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Assistente empresarial.Utilization          .59606     (Insuf)    .00000     .60000     .60000    
+Assistente Emprearial.Queue.NumberInQueue   5.8992     (Insuf)    .00000     11.000     10.000    
+Assu«istente doméstico.Queue.NumberInQueue  .00905     (Insuf)    .00000     2.0000     .00000    
+Taxi ttt.Queue.NumberInQueue                1.3720     (Insuf)    .00000     4.0000     1.0000    
+Estacionar o carro.Queue.NumberInQueue      1.3633     (Insuf)    .00000     7.0000     5.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+pessoa pe.NumberIn                          70.000    
+pessoa pe.NumberOut                         67.000    
+Entity 1.NumberIn                           111.00    
+Entity 1.NumberOut                          95.000    
+Lugar.NumberSeized                          87.000    
+Lugar.ScheduledUtilization                  .78418    
+1 Assistente domestico.NumberSeized         121.00    
+1 Assistente domestico.ScheduledUtilizatio  .29767    
+Assistente empresarial.NumberSeized         72.000    
+Assistente empresarial.ScheduledUtilizatio  .59606    
+System.NumberOut                            86.000    
+
+Beginning replication 4 of 50
+
+                                      ARENA Simulation Results
+                                                 DPS
+
+                                  Summary for Replication 4 of 50
+
+Project: Unnamed Project                                             Run execution date :10/ 2/2019
+Analyst: DPS                                                         Model revision date:10/ 2/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+pessoa pe.VATime                            9.9042     (Insuf)    4.8545     23.155         80    
+pessoa pe.NVATime                           .00000     (Insuf)    .00000     .00000         80    
+pessoa pe.WaitTime                          4.4326     (Insuf)    .00000     121.44         80    
+pessoa pe.TranTime                          .00000     (Insuf)    .00000     .00000         80    
+pessoa pe.OtherTime                         .00000     (Insuf)    .00000     .00000         80    
+pessoa pe.TotalTime                         14.336     (Insuf)    4.8545     141.67         80    
+Entity 1.VATime                             55.133     (Insuf)    36.426     78.074         21    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         21    
+Entity 1.WaitTime                           69.298     (Insuf)    8.2122     181.68         21    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         21    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         21    
+Entity 1.TotalTime                          67.539     (Insuf)    17.576     184.24         21    
+Assistente Emprearial.Queue.WaitingTime     53.248     (Insuf)    .00000     133.70         23    
+Assu«istente doméstico.Queue.WaitingTime    .17235     (Insuf)    .00000     3.4693        146    
+Taxi ttt.Queue.WaitingTime                  8.1262     (Insuf)    .00000     29.760         84    
+Estacionar o carro.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000         92    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+pessoa pe.WIP                               2.7558     (Insuf)    .00000     7.0000     5.0000    
+Entity 1.WIP                                6.3979     (Insuf)    .00000     13.000     8.0000    
+Lugar.NumberBusy                            8.6619     (Insuf)    .00000     17.000     12.000    
+Lugar.NumberScheduled                       20.000     (Insuf)    20.000     20.000     20.000    
+Lugar.Utilization                           .43310     (Insuf)    .00000     .85000     .60000    
+1 Assistente domestico.NumberBusy           1.8117     (Insuf)    .00000     5.0000     2.0000    
+1 Assistente domestico.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+1 Assistente domestico.Utilization          .36235     (Insuf)    .00000     1.0000     .40000    
+Assistente empresarial.NumberBusy           2.7190     (Insuf)    .00000     3.0000     3.0000    
+Assistente empresarial.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Assistente empresarial.Utilization          .54381     (Insuf)    .00000     .60000     .60000    
+Assistente Emprearial.Queue.NumberInQueue   3.4696     (Insuf)    .00000     8.0000     8.0000    
+Assu«istente doméstico.Queue.NumberInQueue  .05242     (Insuf)    .00000     4.0000     .00000    
+Taxi ttt.Queue.NumberInQueue                1.4221     (Insuf)    .00000     4.0000     .00000    
+Estacionar o carro.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+pessoa pe.NumberIn                          85.000    
+pessoa pe.NumberOut                         80.000    
+Entity 1.NumberIn                           113.00    
+Entity 1.NumberOut                          105.00    
+Lugar.NumberSeized                          92.000    
+Lugar.ScheduledUtilization                  .43310    
+1 Assistente domestico.NumberSeized         146.00    
+1 Assistente domestico.ScheduledUtilizatio  .36235    
+Assistente empresarial.NumberSeized         69.000    
+Assistente empresarial.ScheduledUtilizatio  .54381    
+System.NumberOut                            101.00    
+
+Beginning replication 5 of 50
+
+                                      ARENA Simulation Results
+                                                 DPS
+
+                                  Summary for Replication 5 of 50
+
+Project: Unnamed Project                                             Run execution date :10/ 2/2019
+Analyst: DPS                                                         Model revision date:10/ 2/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+pessoa pe.VATime                            9.8605     (Insuf)    3.9859     31.513         70    
+pessoa pe.NVATime                           .00000     (Insuf)    .00000     .00000         70    
+pessoa pe.WaitTime                          4.4153     (Insuf)    .00000     93.665         70    
+pessoa pe.TranTime                          .00000     (Insuf)    .00000     .00000         70    
+pessoa pe.OtherTime                         .00000     (Insuf)    .00000     .00000         70    
+pessoa pe.TotalTime                         14.275     (Insuf)    3.9859     116.89         70    
+Entity 1.VATime                             54.592     (Insuf)    36.781     75.556         21    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         21    
+Entity 1.WaitTime                           126.56     (Insuf)    6.7265     334.41         21    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         21    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         21    
+Entity 1.TotalTime                          78.790     (Insuf)    19.819     157.31         21    
+Assistente Emprearial.Queue.WaitingTime     71.081     (Insuf)    .00000     121.72         26    
+Assu«istente doméstico.Queue.WaitingTime    .05578     (Insuf)    .00000     4.4912        134    
+Taxi ttt.Queue.WaitingTime                  8.8706     (Insuf)    .00000     46.596         84    
+Estacionar o carro.Queue.WaitingTime        8.0766     (Insuf)    .00000     53.662         90    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+pessoa pe.WIP                               2.2297     (Insuf)    .00000     9.0000     4.0000    
+Entity 1.WIP                                9.4599     (Insuf)    .00000     19.000     15.000    
+Lugar.NumberBusy                            13.063     (Insuf)    .00000     20.000     20.000    
+Lugar.NumberScheduled                       20.000     (Insuf)    20.000     20.000     20.000    
+Lugar.Utilization                           .65320     (Insuf)    .00000     1.0000     1.0000    
+1 Assistente domestico.NumberBusy           1.6290     (Insuf)    .00000     5.0000     4.0000    
+1 Assistente domestico.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+1 Assistente domestico.Utilization          .32582     (Insuf)    .00000     1.0000     .80000    
+Assistente empresarial.NumberBusy           2.9623     (Insuf)    .00000     3.0000     3.0000    
+Assistente empresarial.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Assistente empresarial.Utilization          .59247     (Insuf)    .00000     .60000     .60000    
+Assistente Emprearial.Queue.NumberInQueue   4.2011     (Insuf)    .00000     7.0000     4.0000    
+Assu«istente doméstico.Queue.NumberInQueue  .01557     (Insuf)    .00000     3.0000     .00000    
+Taxi ttt.Queue.NumberInQueue                1.5679     (Insuf)    .00000     4.0000     1.0000    
+Estacionar o carro.Queue.NumberInQueue      1.9198     (Insuf)    .00000     10.000     9.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+pessoa pe.NumberIn                          74.000    
+pessoa pe.NumberOut                         70.000    
+Entity 1.NumberIn                           120.00    
+Entity 1.NumberOut                          105.00    
+Lugar.NumberSeized                          90.000    
+Lugar.ScheduledUtilization                  .65320    
+1 Assistente domestico.NumberSeized         134.00    
+1 Assistente domestico.ScheduledUtilizatio  .32582    
+Assistente empresarial.NumberSeized         78.000    
+Assistente empresarial.ScheduledUtilizatio  .59247    
+System.NumberOut                            91.000    
+
+Beginning replication 6 of 50
+
+                                      ARENA Simulation Results
+                                                 DPS
+
+                                  Summary for Replication 6 of 50
+
+Project: Unnamed Project                                             Run execution date :10/ 2/2019
+Analyst: DPS                                                         Model revision date:10/ 2/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+pessoa pe.VATime                            9.8272     (Insuf)    4.5521     31.675         80    
+pessoa pe.NVATime                           .00000     (Insuf)    .00000     .00000         80    
+pessoa pe.WaitTime                          2.3307     (Insuf)    .00000     84.304         80    
+pessoa pe.TranTime                          .00000     (Insuf)    .00000     .00000         80    
+pessoa pe.OtherTime                         .00000     (Insuf)    .00000     .00000         80    
+pessoa pe.TotalTime                         12.157     (Insuf)    4.5521     101.08         80    
+Entity 1.VATime                             54.021     (Insuf)    33.896     79.044         20    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         20    
+Entity 1.WaitTime                           74.263     (Insuf)    14.964     275.61         20    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         20    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         20    
+Entity 1.TotalTime                          58.342     (Insuf)    23.781     156.19         20    
+Assistente Emprearial.Queue.WaitingTime     49.301     (Insuf)    .00000     132.71         24    
+Assu«istente doméstico.Queue.WaitingTime    .10787     (Insuf)    .00000     3.6403        139    
+Taxi ttt.Queue.WaitingTime                  9.1151     (Insuf)    .00000     29.826         80    
+Estacionar o carro.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000         91    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+pessoa pe.WIP                               2.0332     (Insuf)    .00000     8.0000     1.0000    
+Entity 1.WIP                                7.0305     (Insuf)    .00000     17.000     11.000    
+Lugar.NumberBusy                            8.9009     (Insuf)    .00000     18.000     11.000    
+Lugar.NumberScheduled                       20.000     (Insuf)    20.000     20.000     20.000    
+Lugar.Utilization                           .44505     (Insuf)    .00000     .90000     .55000    
+1 Assistente domestico.NumberBusy           1.6650     (Insuf)    .00000     5.0000     1.0000    
+1 Assistente domestico.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+1 Assistente domestico.Utilization          .33302     (Insuf)    .00000     1.0000     .20000    
+Assistente empresarial.NumberBusy           2.7889     (Insuf)    .00000     3.0000     3.0000    
+Assistente empresarial.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Assistente empresarial.Utilization          .55779     (Insuf)    .00000     .60000     .60000    
+Assistente Emprearial.Queue.NumberInQueue   3.4708     (Insuf)    .00000     10.000     8.0000    
+Assu«istente doméstico.Queue.NumberInQueue  .03124     (Insuf)    .00000     3.0000     .00000    
+Taxi ttt.Queue.NumberInQueue                1.5290     (Insuf)    .00000     4.0000     1.0000    
+Estacionar o carro.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+pessoa pe.NumberIn                          81.000    
+pessoa pe.NumberOut                         80.000    
+Entity 1.NumberIn                           111.00    
+Entity 1.NumberOut                          100.00    
+Lugar.NumberSeized                          91.000    
+Lugar.ScheduledUtilization                  .44505    
+1 Assistente domestico.NumberSeized         139.00    
+1 Assistente domestico.ScheduledUtilizatio  .33302    
+Assistente empresarial.NumberSeized         72.000    
+Assistente empresarial.ScheduledUtilizatio  .55779    
+System.NumberOut                            100.00    
+
+Beginning replication 7 of 50
+
+----------------------------------------------------------------------
+17162:RELONE
+Entity: 9
+A runtime error was detected at time 30.214668 at the following block:
+
+ *   22 119$            RELEASE:Lugar,1;
+
+Attempt to release non-busy resource Lugar.
+Cannot release 1.0 units when number busy is 0.0.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+30.214668 Minutes>
+                                      ARENA Simulation Results
+                                                 DPS
+
+                                  Summary for Replication 7 of 50
+
+Project: Unnamed Project                                             Run execution date :10/ 2/2019
+Analyst: DPS                                                         Model revision date:10/ 2/2019
+
+Replication ended at time      : 30.214668 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+pessoa pe.VATime                            13.624     (Insuf)    5.2270     29.522          4    
+pessoa pe.NVATime                           .00000     (Insuf)    .00000     .00000          4    
+pessoa pe.WaitTime                          .00000     (Insuf)    .00000     .00000          4    
+pessoa pe.TranTime                          .00000     (Insuf)    .00000     .00000          4    
+pessoa pe.OtherTime                         .00000     (Insuf)    .00000     .00000          4    
+pessoa pe.TotalTime                         13.624     (Insuf)    5.2270     29.522          4    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Assistente Emprearial.Queue.WaitingTime     10.664     (Insuf)    .00000     21.329          2    
+Assu«istente doméstico.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000          6    
+Taxi ttt.Queue.WaitingTime                      --         --         --         --          0
+Estacionar o carro.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+pessoa pe.WIP                               2.1994     (Insuf)    .00000     4.0000     2.0000    
+Entity 1.WIP                                2.3844     (Insuf)    .00000     4.0000     4.0000    
+Lugar.NumberBusy                            1.7203     (Insuf)    .00000     2.0000     .00000    
+Lugar.NumberScheduled                       20.000     (Insuf)    20.000     20.000     20.000    
+Lugar.Utilization                           .08602     (Insuf)    .00000     .10000     .00000    
+1 Assistente domestico.NumberBusy           1.0284     (Insuf)    .00000     3.0000     1.0000    
+1 Assistente domestico.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+1 Assistente domestico.Utilization          .20569     (Insuf)    .00000     .60000     .20000    
+Assistente empresarial.NumberBusy           3.0000     (Insuf)    .00000     3.0000     3.0000    
+Assistente empresarial.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Assistente empresarial.Utilization          .60000     (Insuf)    .00000     .60000     .60000    
+Assistente Emprearial.Queue.NumberInQueue   .74496     (Insuf)    .00000     1.0000     1.0000    
+Assu«istente doméstico.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Taxi ttt.Queue.NumberInQueue                .64510     (Insuf)    .00000     1.0000     1.0000    
+Estacionar o carro.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+pessoa pe.NumberIn                          6.0000    
+pessoa pe.NumberOut                         4.0000    
+Entity 1.NumberIn                           4.0000    
+Entity 1.NumberOut                          .00000    
+Lugar.NumberSeized                          4.0000    
+Lugar.ScheduledUtilization                  .08602    
+1 Assistente domestico.NumberSeized         6.0000    
+1 Assistente domestico.ScheduledUtilizatio  .20569    
+Assistente empresarial.NumberSeized         6.0000    
+Assistente empresarial.ScheduledUtilizatio  .60000    
+System.NumberOut                            4.0000    
+

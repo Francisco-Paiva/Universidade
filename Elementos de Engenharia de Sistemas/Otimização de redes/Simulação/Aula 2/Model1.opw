@@ -1,0 +1,16 @@
+[RESOURCES]
+Bombeiro2
+enfermeiro
+Rececionista
+Medico
+[VARIABLES]
+Deslocação.NumberOut
+Saida.NumberOut
+Assistência.NumberIn
+Central.NumberOut
+Assistência.NumberOut
+Chegada de pedidos.NumberOut
+Deslocação.NumberIn
+atendimento.NumberIn
+atendimento.NumberOut
+Central.NumberIn

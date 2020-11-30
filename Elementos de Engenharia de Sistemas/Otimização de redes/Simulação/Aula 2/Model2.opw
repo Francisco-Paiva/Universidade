@@ -1,0 +1,23 @@
+[RESOURCES]
+Lugar
+1 Assistente domestico
+Assistente empresarial
+[VARIABLES]
+Decide 5.NumberOut False
+Decide 2.NumberOut False
+saida.NumberOut
+Estacionar o carro.NumberOut
+Retirar o carro.NumberIn
+Domestico ou Empresarial.NumberOut False
+Retirar o carro.NumberOut
+Chegada de clientes com carro.NumberOut
+clientes a pe.NumberOut
+Assistente Emprearial.NumberIn
+Assistente Emprearial.NumberOut
+Assu«istente doméstico.NumberOut
+Assu«istente doméstico.NumberIn
+Domestico ou Empresarial.NumberOut True
+Taxi ttt.NumberOut
+Estacionar o carro.NumberIn
+Decide 5.NumberOut True
+Decide 2.NumberOut True

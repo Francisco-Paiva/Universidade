@@ -1,0 +1,69 @@
+SIMAN Run Controller.
+
+14.2437 Hours>
+                                      ARENA Simulation Results
+                                                 DPS
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :10/ 2/2019
+Analyst: DPS                                                         Model revision date:10/ 2/2019
+
+Replication ended at time      : 14.2437 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+pedido.VATime                               .43479     (Insuf)    .34261     .50433         25    
+pedido.NVATime                              .00000     (Insuf)    .00000     .00000         25    
+pedido.WaitTime                             .18618     (Insuf)    .00000     1.0465         25    
+pedido.TranTime                             .00000     (Insuf)    .00000     .00000         25    
+pedido.OtherTime                            .00000     (Insuf)    .00000     .00000         25    
+pedido.TotalTime                            .62097     (Insuf)    .34261     1.5056         25    
+Deslocação.Queue.WaitingTime                .21944     (Insuf)    .00000     1.3494         26    
+atendimento.Queue.WaitingTime               .01306     (Insuf)    .00000     .14302         28    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+pedido.WIP                                  1.3236     (Insuf)    .00000     6.0000     3.0000    
+Bombeiro2.NumberBusy                        1.2418     (Insuf)    .00000     2.0000     2.0000    
+Bombeiro2.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Bombeiro2.Utilization                       .62092     (Insuf)    .00000     1.0000     1.0000    
+enfermeiro.NumberBusy                       .62092     (Insuf)    .00000     1.0000     1.0000    
+enfermeiro.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+enfermeiro.Utilization                      .62092     (Insuf)    .00000     1.0000     1.0000    
+Rececionista.NumberBusy                     .16093     (Insuf)    .00000     1.0000     .00000    
+Rececionista.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Rececionista.Utilization                    .16093     (Insuf)    .00000     1.0000     .00000    
+Medico.NumberBusy                           .62092     (Insuf)    .00000     1.0000     1.0000    
+Medico.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Medico.Utilization                          .62092     (Insuf)    .00000     1.0000     1.0000    
+Deslocação.Queue.NumberInQueue              .51609     (Insuf)    .00000     5.0000     2.0000    
+atendimento.Queue.NumberInQueue             .02567     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+pedido.NumberIn                             28.000    
+pedido.NumberOut                            25.000    
+Bombeiro2.NumberSeized                      52.000    
+Bombeiro2.ScheduledUtilization              .62092    
+enfermeiro.NumberSeized                     26.000    
+enfermeiro.ScheduledUtilization             .62092    
+Rececionista.NumberSeized                   28.000    
+Rececionista.ScheduledUtilization           .16093    
+Medico.NumberSeized                         26.000    
+Medico.ScheduledUtilization                 .62092    
+System.NumberOut                            25.000    
+
+
+Simulation run time: 0.07 minutes.
+Simulation run complete.
