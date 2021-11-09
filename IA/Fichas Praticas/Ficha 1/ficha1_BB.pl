@@ -19,9 +19,12 @@ pai( P,F ) :- filho( F,P ).
 %--------------------------------- - - - - - - - - - -  -  -  -  -   -
 % Extensao do predicado avo: Avo,Neto -> {V,F}
 
+avo( antonio,nadia ).
 
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Extensao do predicado avo: Avo,Neto -> {V,F}
 
-
+avo( A,N ) :- neto( N,A ).
 
 %--------------------------------- - - - - - - - - - -  -  -  -  -   -
 % Extensao do predicado bisavo: Bisavo,Bisneto -> {V,F}
